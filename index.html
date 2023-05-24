@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <title>KIT4SME platform</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/46e3e038d4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 logo text-end">
+          <a href="https://kitt4sme.eu/" target="_blank" title="KITT4SME logo">
+            <img
+              src="kitt4sme_logo.png"
+              class="logo"
+              alt="KITT4SME logo"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <div class="col-2 logo text-end">
+          <a href="https://commission.europa.eu/index_en" target="_blank" title="EU Commission logo">
+            <img
+              src="eu_logo.png"
+              class="logo"
+              alt="EU Commission logo"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <div class="col-6 logo">
+          <h1>KITT4SME platform</h1>
+          <p class="fst-italic"><a href="https://kitt4sme.eu/" target="_blank">KITT4SME project</a> specifically targets European SMEs and mid-caps to provide them with scope-tailored and industry-ready hardware, 
+            software and organisational kits, delivered as modularly customisable digital platform, that seamlessly introduce artificial intelligence 
+            in their production systems.​
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-12">
+          <h1>Architecture</h1>
+          <blockquote class="blockquote">
+            <p class="mb-0">KITT4SME offer an open source platform for uptake of AI solutions in manufacturing for SMEs.
+              The architecture is based on the currently best-in-class open source platform for IoT: FIWARE. 
+              The figure illustrates the different platform layers (components in the mid-blue boxes are provided by FIWARE). 
+              FIWARE is a scalable open source component framework that can be composed to integrate, 
+              handle and manage context information from different data sources, distribute that KITT4SME data 
+              and stream it into involved external components for persistence as well as for AI-based processing aims. 
+              Computed results can then be integrated back enabling actuation and the enrichment of the current context.​
+            </p></blockquote>
+            <img src="kitt4sme_architecture.png" alt="KITT4SME architecture"/>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <h1>Software catalogue</h1>
+        <blockquote class="blockquote">
+          <p class="mb-0">Below there is the KITT4SME software catalogue. For each component
+            there is a short description of what it does, its type and the partner(s) that developed it.</p></blockquote>
+        <h2>Application services</h2>
+        <table class="table table-striped">
+          <thead>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Type</th>
+            <th scope="col">Partner</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/aiqus.md">AI for Quality Inspection Systems</a></td>
+              <td>AI with data augmentation for continuous evaluation, fine tunning and re-configuration of quality control.</td>
+              <td>AI solution</td>
+              <td>R2M</td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/viqe.md">Vision for Quality Excellence</a></td>
+              <td>Deep learning image processing that inspects and evaluates the quality of manufacturing parts.</td>
+              <td>AI solution</td>
+              <td>Rovimatica</td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://kitt4sme.collab-cloud.eu/sads/">Shop Floor Anomaly Detection System</a></td>
+              <td>Machine Learning solution for real-time welding point anomaly detection and welding output Joules forecasting.</td>
+              <td>AI solution</td>
+              <td>Ginkgo</td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/roughnator.md">Milling Quality Control</a> </td>
+              <td>Software solution for quality control of micro-mechanical milling operations originally developed in the GAMHE 5.0 pilot line.</td>
+              <td>AI solution</td>
+              <td>CSIC</td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/insight_generator.md">Insight Generator</a> </td>
+              <td>It provides pivotal insights to optimise manufacturing systems. Insight Generator uses
+                machine-learning techniques to analyse historical data and determine the
+                most suitable configuration to optimise a manufacturing system depending
+                on user-defined KPIs.</td>
+              <td>AI solution</td>
+              <td>CSIC</td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/shop-floor-reconfigurator.md">Shop Floor Reconfigurator</a></td>
+              <td>AI recommender enabling in-process reconfiguration. It can suggest how
+                to reconfigure shop floor machines in near real-time or even
+                automatically reconfigure the machines</td>
+              <td>AI solution</td>
+              <td>CSIC</td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/mpms.md">Manufacturing Process Management System</a></td>
+              <td>Orchestrates humans and machines involved in a production line by
+                keeping a model of the production process to timely assign tasks and
+                coordinate work.</td>
+              <td>AI solution</td>
+              <td>CSIC and European Dynamics</td>
+            </tr>
+            <tr>
+              <td scope="row">SME-Oriented Platform Configurator</td>
+              <td>TBD</td>
+              <td>AI solution</td>
+              <td>SUPSI</td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/im.md">Intervention Manager</a></td>
+              <td>Service to define intervention rules for orchestrating a production system.</td>
+              <td>AI solution</td>
+              <td>SUPSI</td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="http://kitt4sme.collab-cloud.eu:8080/ProductionSystemProfiler/Step1">Production System Profiler</a></td>
+              <td>Identifies worker skills and factory needs at various levels whole plant, production line, workplace.</td>
+              <td>Digital competences and platform service evolution</td>
+              <td>HOLONIX and Warsaw University of Technology </td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="http://kitt4sme.collab-cloud.eu:8080/WorkerProfiler">Worker Profiler</a></td>
+              <td>A web app that suggests training programmes depending on worker's skills and aspirations as well their role in the company</td>
+              <td>Digital competences and platform service evolution</td>
+              <td>HOLONIX and Erre Quadro</td>
+            </tr>
+            <tr>
+              <td scope="row">Catalogue of Qualified Training Experiences</td>
+              <td>Dynamic and comprehensive catalogue of training experiences to be used by the
+                matchmaking tool.</td>
+              <td>Digital competences and platform service evolution</td>
+              <td>Erre Quadro</td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="http://kitt4sme.collab-cloud.eu:8081">Competence Matchmaking Tool</a></td>
+              <td>A web app that suggests personalised staff training in order to
+                increase staff productivity and, consequently, production line
+                efficiency.</td>
+              <td>Digital competences and platform service evolution</td>
+              <td>SUPSI and Erre Quadro</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+        <h2>RAMP</h2>
+        <table class="table table-striped">
+          <thead>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Partner</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://ramp.eu">Marketplace</a></td>
+              <td>A customisation of the Robotics and Automation Marketplace for the specific needs of the KITT4SME project</td>
+              <td>European Dynamics and VTT</td>
+            </tr>
+            <tr>
+              <td scope="row">Data sheets</td>
+              <td>Digital data sheets for module composability</td>
+              <td>VTT</td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://kitt4sme.collab-cloud.eu/aq">Adaptive Questionnaire</a></td>
+              <td>AI-powered questionnaire to determine the most suitable service kit for a manufacturing company</td>
+              <td>SUPSI</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+        <h2>Infrastructure services</h2>
+        <table class="table table-striped">
+          <thead>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Partner</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/sensing-layer.md">Sensing Layer</a></td>
+              <td>IoT connectivity solution</td>
+              <td style="width: 18%;">HOLONIX</td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/fiware.md">FIWARE middleware</a></td>
+              <td>Powered by FIWARE IoT communication, data exchange and interoperability platform</td>
+              <td style="width: 18%;">Martel</td>
+            </tr>
+            <tr>
+              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/quantumleap.md">QuantumLeap</a></td>
+              <td>Service for storing and querying spatial-temporal IoT data</td>
+              <td style="width: 18%;">Martel</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr />
+      <div class="row">
+        <h1>Partners</h1>
+        <table class="table partners">
+          <tbody>
+            <tr>
+              <td><a target="_blank" href="https://www.art-er.it"><img class="partner" src="partners/ArtEr-300x147.jpg"></a></td>
+              <td><a target="_blank" href="https://www.crit-research.it"><img class="partner" src="partners/Crit-300x147.jpg"></a></td>
+              <td><a target="_blank" href="https://www.csic.es"><img class="partner" src="partners/marca-13.png"></a></td>
+              <td><a target="_blank" href="https://www.dimacsrl.com/home"><img class="partner" src="partners/marca21-300x160.png"></a></td>
+            </tr>
+            <tr>
+              <td><a target="_blank" href="https://www.errequadrosrl.com"><img class="partner" src="partners/Erre-Quadro_logo_intero-800x141.jpg"></a></td>
+              <td><a target="_blank" href="https://www.eurodyn.com"><img class="partner" src="partners/European-300x147.jpg"></a></td>
+              <td><a target="_blank" href="https://www.ghepi.it"><img class="partner" src="partners/GHEPI-300x147.jpg"></a></td>
+              <td><a target="_blank" href="https://www.ginkgo.com"><img class="partner" src="partners/Ginkgo-300x147.jpg"></a></td>
+            </tr>
+            <tr>
+              <td><a target="_blank" href="https://www.holonix.it"><img class="partner" src="partners/Holonix-300x147.jpg"></a></td>  
+              <td><a target="_blank" href="https://www.ideal-tek.com"><img class="partner" src="partners/iDEALTEK-300x147.jpg"></a></td>
+              <td><a target="_blank" href="https://www.icent.hr/en"><img class="partner" src="partners/marca22-300x148.png"></a></td>
+              <td><a target="_blank" href="https://www.rovimatica.com"><img class="partner" src="partners/marca20-300x89.png"></a></td>
+            </tr>
+            <tr>
+              <td><a target="_blank" href="https://www.martel-innovate.com"><img class="partner" src="partners/Martel-300x147.jpg"></a></td>
+              <td><a target="_blank" href="https://www.r2msolution.com"><img class="partner" src="partners/R2M-300x147.jpg"></a></td>
+              <td><a target="_blank" href="https://www.supsi.ch/home.html"><img class="partner" src="partners/Supsi.jpg"></a></td>
+              <td><a target="_blank" href="https://www.vttresearch.com"><img class="partner" src="partners/VTT-300x147.jpg"></a></td>
+            </tr>
+            <tr>
+              <td colspan="2"><a target="_blank" href="https://www.pw.edu.pl"><img class="partner" src="partners/logo_WUT_v4.png"></a></td>
+              <td colspan="2"><a target="_blank" href="https://wamtechnik.pl"><img class="partner" src="partners/marca-25.png"></a></td>
+            </tr> 
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

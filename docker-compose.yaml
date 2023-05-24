@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  kitt4sme-static-page:
+    build: .
+    image: nginx:latest
+    ports:
+      - 8086:80

@@ -1,0 +1,31 @@
+html {
+    font-size: 0.8em !important;
+}
+
+.logo img {
+    height: 10em;
+}
+
+.container {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    /* background-color: white; */
+    /* padding: 1.5em;
+    border-radius: 2em; */
+    /* border-style: solid;
+    border-color: black;
+    border-width: 0.1em; */
+}
+
+p {
+    text-align: justify;
+}
+
+.partners td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.partner {
+    height: 7em;
+}
