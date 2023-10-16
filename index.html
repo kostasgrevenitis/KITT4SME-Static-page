@@ -1,269 +1,777 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-  <head>
-    <title>KIT4SME platform</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/46e3e038d4.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+  <title>Artificial Intelligence for SMEs | KIT4SME platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Artificial Intelligence for SMEs. Platform-enabled KITs of arTificial intelligence. AI for improve any Business" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="canonical" href="https://kitt4sme.collab-cloud.eu/" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Artificial Intelligence for SMEs | KITT4SME AI to improve any Business" />
+  <meta property="og:description"
+    content="Artificial Intelligence for SMEs. Platform-enabled KITs of arTificial intelligence. AI for improve any Business" />
+  <meta property="og:url" content="https://kitt4sme.collab-cloud.eu/" />
+  <meta property="og:site_name" content="Artificial Intelligence for SMEs." />
+  <meta property="article:publisher" content="https://www.facebook.com/Kitt4sme-104350174984526/" />
+  <meta property="article:modified_time" content="2023-04-11T16:06:02+00:00" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@kitt4sme" />
+  <meta name="twitter:label1" content="Estimated reading time" />
+  <meta name="twitter:data1" content="2 minutes" />
 
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-4 logo text-end">
-          <a href="https://kitt4sme.eu/" target="_blank" title="KITT4SME logo">
-            <img
-              src="kitt4sme_logo.png"
-              class="logo"
-              alt="KITT4SME logo"
-              loading="lazy"
-            />
-          </a>
-        </div>
-        <div class="col-2 logo text-end">
-          <a href="https://commission.europa.eu/index_en" target="_blank" title="EU Commission logo">
-            <img
-              src="eu_logo.png"
-              class="logo"
-              alt="EU Commission logo"
-              loading="lazy"
-            />
-          </a>
-        </div>
-        <div class="col-6 logo">
-          <h1>KITT4SME platform</h1>
-          <p class="fst-italic"><a href="https://kitt4sme.eu/" target="_blank">KITT4SME project</a> specifically targets European SMEs and mid-caps to provide them with scope-tailored and industry-ready hardware, 
-            software and organisational kits, delivered as modularly customisable digital platform, that seamlessly introduce artificial intelligence 
-            in their production systems.​
-          </p>
-        </div>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/46e3e038d4.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Start of container -->
+  <div class="container">
+
+    <!-- Header -->
+    <div class="row">
+      <div class="col-4 logo text-end">
+        <a href="https://kitt4sme.eu/" target="_blank" title="KITT4SME logo">
+          <img src="kitt4sme_logo.png" class="logo" alt="KITT4SME logo" loading="lazy" />
+        </a>
       </div>
-      <hr />
-      <div class="row">
-        <div class="col-12">
-          <h1>Architecture</h1>
-          <blockquote class="blockquote">
-            <p class="mb-0">KITT4SME offer an open source platform for uptake of AI solutions in manufacturing for SMEs.
-              The architecture is based on the currently best-in-class open source platform for IoT: FIWARE. 
-              The figure illustrates the different platform layers (components in the mid-blue boxes are provided by FIWARE). 
-              FIWARE is a scalable open source component framework that can be composed to integrate, 
-              handle and manage context information from different data sources, distribute that KITT4SME data 
-              and stream it into involved external components for persistence as well as for AI-based processing aims. 
-              Computed results can then be integrated back enabling actuation and the enrichment of the current context.​
-            </p></blockquote>
-            <img src="kitt4sme_architecture.png" alt="KITT4SME architecture"/>
-        </div>
+      <div class="col-2 logo text-end">
+        <a href="https://commission.europa.eu/index_en" target="_blank" title="EU Commission logo">
+          <img src="eu_logo.png" class="logo" alt="EU Commission logo" loading="lazy" />
+        </a>
       </div>
-      <hr />
-      <div class="row">
-        <h1>Software catalogue</h1>
-        <blockquote class="blockquote">
-          <p class="mb-0">Below there is the KITT4SME software catalogue. For each component
-            there is a short description of what it does, its type and the partner(s) that developed it.</p></blockquote>
-        <h2>Application services</h2>
-        <table class="table table-striped">
-          <thead>
-            <th scope="col">Name</th>
-            <th scope="col">Description</th>
-            <th scope="col">Type</th>
-            <th scope="col">Partner</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/aiqus.md">AI for Quality Inspection Systems</a></td>
-              <td>AI with data augmentation for continuous evaluation, fine tunning and re-configuration of quality control.</td>
-              <td>AI solution</td>
-              <td>R2M</td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/viqe.md">Vision for Quality Excellence</a></td>
-              <td>Deep learning image processing that inspects and evaluates the quality of manufacturing parts.</td>
-              <td>AI solution</td>
-              <td>Rovimatica</td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://kitt4sme.collab-cloud.eu/sads/">Shop Floor Anomaly Detection System</a></td>
-              <td>Machine Learning solution for real-time welding point anomaly detection and welding output Joules forecasting.</td>
-              <td>AI solution</td>
-              <td>Ginkgo</td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/roughnator.md">Milling Quality Control</a> </td>
-              <td>Software solution for quality control of micro-mechanical milling operations originally developed in the GAMHE 5.0 pilot line.</td>
-              <td>AI solution</td>
-              <td>CSIC</td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/insight_generator.md">Insight Generator</a> </td>
-              <td>It provides pivotal insights to optimise manufacturing systems. Insight Generator uses
-                machine-learning techniques to analyse historical data and determine the
-                most suitable configuration to optimise a manufacturing system depending
-                on user-defined KPIs.</td>
-              <td>AI solution</td>
-              <td>CSIC</td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/shop-floor-reconfigurator.md">Shop Floor Reconfigurator</a></td>
-              <td>AI recommender enabling in-process reconfiguration. It can suggest how
-                to reconfigure shop floor machines in near real-time or even
-                automatically reconfigure the machines</td>
-              <td>AI solution</td>
-              <td>CSIC</td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/mpms.md">Manufacturing Process Management System</a></td>
-              <td>Orchestrates humans and machines involved in a production line by
-                keeping a model of the production process to timely assign tasks and
-                coordinate work.</td>
-              <td>AI solution</td>
-              <td>CSIC and European Dynamics</td>
-            </tr>
-            <tr>
-              <td scope="row">SME-Oriented Platform Configurator</td>
-              <td>TBD</td>
-              <td>AI solution</td>
-              <td>SUPSI</td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/im.md">Intervention Manager</a></td>
-              <td>Service to define intervention rules for orchestrating a production system.</td>
-              <td>AI solution</td>
-              <td>SUPSI</td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="http://kitt4sme.collab-cloud.eu:8080/ProductionSystemProfiler/Step1">Production System Profiler</a></td>
-              <td>Identifies worker skills and factory needs at various levels whole plant, production line, workplace.</td>
-              <td>Digital competences and platform service evolution</td>
-              <td>HOLONIX and Warsaw University of Technology </td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="http://kitt4sme.collab-cloud.eu:8080/WorkerProfiler">Worker Profiler</a></td>
-              <td>A web app that suggests training programmes depending on worker's skills and aspirations as well their role in the company</td>
-              <td>Digital competences and platform service evolution</td>
-              <td>HOLONIX and Erre Quadro</td>
-            </tr>
-            <tr>
-              <td scope="row">Catalogue of Qualified Training Experiences</td>
-              <td>Dynamic and comprehensive catalogue of training experiences to be used by the
-                matchmaking tool.</td>
-              <td>Digital competences and platform service evolution</td>
-              <td>Erre Quadro</td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="http://kitt4sme.collab-cloud.eu:8081">Competence Matchmaking Tool</a></td>
-              <td>A web app that suggests personalised staff training in order to
-                increase staff productivity and, consequently, production line
-                efficiency.</td>
-              <td>Digital competences and platform service evolution</td>
-              <td>SUPSI and Erre Quadro</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="row">
-        <h2>RAMP</h2>
-        <table class="table table-striped">
-          <thead>
-            <th scope="col">Name</th>
-            <th scope="col">Description</th>
-            <th scope="col">Partner</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://ramp.eu">Marketplace</a></td>
-              <td>A customisation of the Robotics and Automation Marketplace for the specific needs of the KITT4SME project</td>
-              <td>European Dynamics and VTT</td>
-            </tr>
-            <tr>
-              <td scope="row">Data sheets</td>
-              <td>Digital data sheets for module composability</td>
-              <td>VTT</td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://kitt4sme.collab-cloud.eu/aq">Adaptive Questionnaire</a></td>
-              <td>AI-powered questionnaire to determine the most suitable service kit for a manufacturing company</td>
-              <td>SUPSI</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="row">
-        <h2>Infrastructure services</h2>
-        <table class="table table-striped">
-          <thead>
-            <th scope="col">Name</th>
-            <th scope="col">Description</th>
-            <th scope="col">Partner</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/sensing-layer.md">Sensing Layer</a></td>
-              <td>IoT connectivity solution</td>
-              <td style="width: 18%;">HOLONIX</td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/fiware.md">FIWARE middleware</a></td>
-              <td>Powered by FIWARE IoT communication, data exchange and interoperability platform</td>
-              <td style="width: 18%;">Martel</td>
-            </tr>
-            <tr>
-              <td scope="row"><a target="_blank" href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/quantumleap.md">QuantumLeap</a></td>
-              <td>Service for storing and querying spatial-temporal IoT data</td>
-              <td style="width: 18%;">Martel</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <hr />
-      <div class="row">
-        <h1>Partners</h1>
-        <table class="table partners">
-          <tbody>
-            <tr>
-              <td><a target="_blank" href="https://www.art-er.it"><img class="partner" src="partners/ArtEr-300x147.jpg"></a></td>
-              <td><a target="_blank" href="https://www.crit-research.it"><img class="partner" src="partners/Crit-300x147.jpg"></a></td>
-              <td><a target="_blank" href="https://www.csic.es"><img class="partner" src="partners/marca-13.png"></a></td>
-              <td><a target="_blank" href="https://www.dimacsrl.com/home"><img class="partner" src="partners/marca21-300x160.png"></a></td>
-            </tr>
-            <tr>
-              <td><a target="_blank" href="https://www.errequadrosrl.com"><img class="partner" src="partners/Erre-Quadro_logo_intero-800x141.jpg"></a></td>
-              <td><a target="_blank" href="https://www.eurodyn.com"><img class="partner" src="partners/European-300x147.jpg"></a></td>
-              <td><a target="_blank" href="https://www.ghepi.it"><img class="partner" src="partners/GHEPI-300x147.jpg"></a></td>
-              <td><a target="_blank" href="https://www.ginkgo.com"><img class="partner" src="partners/Ginkgo-300x147.jpg"></a></td>
-            </tr>
-            <tr>
-              <td><a target="_blank" href="https://www.holonix.it"><img class="partner" src="partners/Holonix-300x147.jpg"></a></td>  
-              <td><a target="_blank" href="https://www.ideal-tek.com"><img class="partner" src="partners/iDEALTEK-300x147.jpg"></a></td>
-              <td><a target="_blank" href="https://www.icent.hr/en"><img class="partner" src="partners/marca22-300x148.png"></a></td>
-              <td><a target="_blank" href="https://www.rovimatica.com"><img class="partner" src="partners/marca20-300x89.png"></a></td>
-            </tr>
-            <tr>
-              <td><a target="_blank" href="https://www.martel-innovate.com"><img class="partner" src="partners/Martel-300x147.jpg"></a></td>
-              <td><a target="_blank" href="https://www.r2msolution.com"><img class="partner" src="partners/R2M-300x147.jpg"></a></td>
-              <td><a target="_blank" href="https://www.supsi.ch/home.html"><img class="partner" src="partners/Supsi.jpg"></a></td>
-              <td><a target="_blank" href="https://www.vttresearch.com"><img class="partner" src="partners/VTT-300x147.jpg"></a></td>
-            </tr>
-            <tr>
-              <td colspan="2"><a target="_blank" href="https://www.pw.edu.pl"><img class="partner" src="partners/logo_WUT_v4.png"></a></td>
-              <td colspan="2"><a target="_blank" href="https://wamtechnik.pl"><img class="partner" src="partners/marca-25.png"></a></td>
-            </tr> 
-          </tbody>
-        </table>
+      <div class="col-6 logo">
+        <h1>KITT4SME platform</h1>
+        <p class="fst-italic"><a href="https://kitt4sme.eu/" target="_blank">KITT4SME project</a> specifically targets
+          European SMEs and mid-caps to provide them with scope-tailored and industry-ready hardware,
+          software and organisational kits, delivered as modularly customisable digital platform, that seamlessly
+          introduce artificial intelligence
+          in their production systems.​
+        </p>
       </div>
     </div>
-  </body>
+    <hr />
+
+    <!-- tabs -->
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="objective-tab" data-bs-toggle="tab" data-bs-target="#objective"
+          type="button" role="tab" aria-controls="objective" aria-selected="true"><i class="fa-solid fa-bullseye"></i>
+          Objective</button>
+
+        <button class="nav-link" id="architecture-tab" data-bs-toggle="tab" data-bs-target="#architecture" type="button"
+          role="tab" aria-controls="architecture" aria-selected="false"><i class="fa-solid fa-sitemap"></i> Platform
+          architecture</button>
+
+        <button class="nav-link" id="software-tab" data-bs-toggle="tab" data-bs-target="#software" type="button"
+          role="tab" aria-controls="software" aria-selected="false"><i class="fa-brands fa-uncharted"></i> Software
+          catalogue</button>
+
+        <button class="nav-link" id="usecases-tab" data-bs-toggle="tab" data-bs-target="#usecases" type="button"
+          role="tab" aria-controls="usecases" aria-selected="false"><i class="fa-solid fa-clipboard"></i> Use
+          cases</button>
+
+        <button class="nav-link" id="pricing-tab" data-bs-toggle="tab" data-bs-target="#pricing" type="button"
+          role="tab" aria-controls="pricing" aria-selected="false"><i class="fa-solid fa-money-bill"></i>
+          Pricing</button>
+      </div>
+    </nav>
+
+    <!-- Start of tabs content-->
+    <div class="tab-content">
+
+      <!-- objective-->
+      <div class="tab-pane fade show active" id="objective" role="tabpanel" aria-labelledby="objective">
+        <div class="row mt-4">
+          <div class="col-12">
+            <p class="mb-0">The KITT4SME (platform-enabled KITs of arTificial intelligence FOR an easy uptake by SMEs)
+              specifically targets
+              European SMEs and mid-caps to provide them with scope-tailored and industry-ready hardware, software and
+              organisational kits, delivered as
+              modularly customisable digital platform, that seamlessly introduce artificial intelligence in their
+              production
+              systems.</p>
+            <br />
+            <p class="mb-0">Uptake of the resulting packages and of the provided devices is strongly supported by the
+              clear
+              characterisation
+              and market readiness of the individual components as well as by the platform grounding on the already
+              established RAMP Marketplace.
+              Leverage on the network of Digital Innovation Hubs, three of which are represented in the consortium,
+              ensure that KITT4SME are widely distributed to a wide audience of companies in Europe.
+              Seamless adoption of the customised kits is made possible by a Powered by FIWARE infrastructure
+              that flawlessly combine Factory systems (such as MES and ERP), IoT sensors and wearable devices, robots,
+              collaborative robots and other Factory data sources with functional modules capable to trigger data-driven
+              value creation.</p>
+            <br />
+            <p class="mb-0">The KITT4SME concept comes into being from the acknowledge that companies are unprepared and
+              inadequately exposed to extremely complex and widely diverse digital solutions in the field of artificial
+              intelligence
+              that are often much too broad in scope and relentless in dictating their own objectives
+              instead of focusing on the issues a company really faces. Yet, whereas big companies have capitals and
+              resources to research and build platforms internally, SMEs struggle in finding solutions that are fitting
+              to their needs and, even when exposed to them, have to bear significant financial risks to embrace them
+              while lacking the
+              competences for a first-right selection. Lag in the digitisation race for them is not a system by-product
+              it is a designed feature.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- architecture-->
+      <div class="tab-pane fade" id="architecture" role="tabpanel" aria-labelledby="architecture">
+        <div class="row mt-4">
+          <div class="col-12">
+            <p class="mb-0">KITT4SME offer an open source platform for uptake of AI solutions in manufacturing for SMEs.
+              The architecture is based on the currently best-in-class open source platform for IoT: FIWARE.
+              The figure illustrates the different platform layers (components in the mid-blue boxes are provided by
+              FIWARE).
+              FIWARE is a scalable open source component framework that can be composed to integrate,
+              handle and manage context information from different data sources, distribute that KITT4SME data
+              and stream it into involved external components for persistence as well as for AI-based processing aims.
+              Computed results can then be integrated back enabling actuation and the enrichment of the current
+              context.​
+            </p>
+            <br />
+            <img src="kitt4sme_architecture.png" alt="KITT4SME architecture" />
+            <hr />
+            The architecture from the project's software services POV, is the following:
+            <img class="mt-4" src="https://github.com/c0c0n3/kitt4sme.live/raw/main/docs/tech-stack.svg"
+              alt="KITT4SME architecture-tools" />
+          </div>
+        </div>
+      </div>
+
+      <!-- software-->
+      <div class="tab-pane fade" id="software" role="tabpanel" aria-labelledby="software">
+        <div class="row mt-4">
+          <h2 class="mt-4">Application services</h2>
+          <table class="table table-striped">
+            <thead>
+              <th scope="col">Name</th>
+              <th scope="col">Demo</th>
+              <th scope="col">Description</th>
+              <th scope="col">Type</th>
+              <th scope="col">Partner</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row"><a target="_blank"
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/aiqus.md">
+                    AI for Quality Inspection Systems</a>
+                </td>
+                <td><a target="_blank"
+                    href="https://kitt4sme.collab-cloud.eu/docs">https://kitt4sme.collab-cloud.eu/docs</a></td>
+                <td>AI with data augmentation for continuous evaluation, fine tunning and re-configuration of quality
+                  control.</td>
+                <td>AI solution</td>
+                <td><a target="_blank" href="https://www.r2msolution.com">R2M</a></td>
+              </tr>
+              <tr>
+                <td scope="row"><a target="_blank"
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/viqe.md">Vision for Quality
+                    Excellence</a>
+                </td>
+                <td>No public demo available</td>
+                <td>Deep learning image processing that inspects and evaluates the quality of manufacturing parts.</td>
+                <td>AI solution</td>
+                <td><a target="_blank" href="https://www.rovimatica.com">Rovimatica</a></td>
+              </tr>
+              <tr>
+                <td scope="row"><a target="_blank" href="https://kitt4sme.collab-cloud.eu/sads/">Shop Floor Anomaly
+                    Detection System</a></td>
+                <td><a target="_blank"
+                    href="https://kitt4sme.collab-cloud.eu/sads">https://kitt4sme.collab-cloud.eu/sads</a></td>
+                <td>Machine Learning solution for real-time welding point anomaly detection and welding output Joules
+                  forecasting.</td>
+                <td>AI solution</td>
+                <td><a target="_blank" href="https://www.ginkgo.com">Ginkgo</a></td>
+              </tr>
+
+              <tr>
+                <td scope="row"><a target="_blank"
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/insight_generator.md">Insight
+                    Generator</a> </td>
+                <td>No public demo available</td>
+                <td>It provides pivotal insights to optimise manufacturing systems. Insight Generator uses
+                  machine-learning techniques to analyse historical data and determine the
+                  most suitable configuration to optimise a manufacturing system depending
+                  on user-defined KPIs.</td>
+                <td>AI solution</td>
+                <td><a target="_blank" href="https://www.csic.es">CSIC</a></td>
+              </tr>
+
+              <tr>
+                <td scope="row"><a target="_blank"
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/mpms.md">Manufacturing Process
+                    Management System</a></td>
+                <td>No public demo available</td>
+                <td>Orchestrates humans and machines involved in a production line by
+                  keeping a model of the production process to timely assign tasks and
+                  coordinate work.</td>
+                <td>AI solution</td>
+                <td><a target="_blank" href="https://www.csic.es">CSIC</a> and <a target="_blank"
+                    href="https://www.eurodyn.com">European Dynamics</a></td>
+              </tr>
+
+              <tr>
+                <td scope="row"><a target="_blank" href="https://github.com/isteps-sps-lab/bf-fams">Fatigue Monitoring
+                    System</a></td>
+                <td><a target="_blank"
+                    href="https://kitt4sme.collab-cloud.eu/dazzler/demo/-/fams">https://kitt4sme.collab-cloud.eu/dazzler/demo/-/fams</a>
+                </td>
+                <td>The FaMS component detects possible psychological (e.g., loss of attention, mental fatigue) or
+                  physical (e.g., tiredness)
+                  discomfort or harmful situations for a worker. The situations identified by this component can be
+                  targeted by other modules
+                  to trigger short term intervention, i.e., intervention that can be executed to support a specific
+                  worker during the current working shift.</td>
+                <td>AI solution</td>
+                <td><a target="_blank" href="https://www.supsi.ch/home.html">SUPSI</a></td>
+              </tr>
+
+              <tr>
+                <td scope="row"><a target="_blank"
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/im.md">Intervention Manager</a>
+                </td>
+                <td><a target="_blank"
+                    href="https://kitt4sme.collab-cloud.eu/intervention-manager">https://kitt4sme.collab-cloud.eu/intervention-manager</a>
+                </td>
+                <td>Service to define intervention rules for orchestrating a production system.</td>
+                <td>AI solution</td>
+                <td><a target="_blank" href="https://www.supsi.ch/home.html">SUPSI</a></td>
+              </tr>
+
+              <tr>
+                <td scope="row"><a
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/prodpro.md">Production System
+                    Profiler</a></td>
+                <td><a target="_blank"
+                    href="http://kitt4sme.collab-cloud.eu:8080/ProductionSystemProfiler/Step1">http://kitt4sme.collab-cloud.eu:8080/ProductionSystemProfiler/Step1</a>
+                </td>
+                <td>Identifies worker skills and factory needs at various levels whole plant, production line,
+                  workplace.
+                </td>
+                <td>Digital competences and platform service evolution</td>
+                <td>
+                  <a target="_blank" href="https://www.holonix.it">HOLONIX</a> and <a target="_blank"
+                    href="https://www.pw.edu.pl">Warsaw University of Technology</a>
+                </td>
+              </tr>
+
+              <tr>
+                <td scope="row"><a target="_blank"
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/workpro.md">Worker Profiler</a>
+                </td>
+                <td scope="row"><a target="_blank"
+                    href="http://kitt4sme.collab-cloud.eu:8080/WorkerProfiler">http://kitt4sme.collab-cloud.eu:8080/WorkerProfiler</a>
+                </td>
+                <td>A web app that suggests training programmes depending on worker's skills and aspirations as well
+                  their role in the company</td>
+                <td>Digital competences and platform service evolution</td>
+                <td><a target="_blank" href="https://www.holonix.it">HOLONIX</a> and
+                  <a target="_blank" href="https://www.errequadrosrl.com">Erre Quadro</a>
+                </td>
+              </tr>
+
+              <tr>
+                <td scope="row"><a target="_blank" href="#">Catalogue of Qualified Training Experiences</a></td>
+                <td>Competence Matchmaking Tool (CMT) is a software that matches worker profiles to training
+                  experiences/courses based on workers'
+                  competence/skill gaps and the skills offered by training experiences and courses.</td>
+                <td>Dynamic and comprehensive catalogue of training experiences to be used by the matchmaking tool.</td>
+                <td>Digital competences and platform service evolution</td>
+                <td><a target="_blank" href="https://www.errequadrosrl.com">Erre Quadro</a></td>
+              </tr>
+
+              <tr>
+                <td scope="row"><a target="_blank"
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/MatchmakingTool.md">Competence
+                    Matchmaking Tool</a></td>
+                <td scope="row"><a target="_blank"
+                    href="http://kitt4sme.collab-cloud.eu:8081">http://kitt4sme.collab-cloud.eu:8081</a></td>
+                <td>A web app that suggests personalised staff training in order to
+                  increase staff productivity and, consequently, production line
+                  efficiency.</td>
+                <td>Digital competences and platform service evolution</td>
+                <td>SUPSI and <a target="_blank" href="https://www.errequadrosrl.com">Erre Quadro</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="row">
+          <h2>RAMP</h2>
+          <table class="table table-striped">
+            <thead>
+              <th scope="col">Name</th>
+              <th scope="col">Demo</th>
+              <th scope="col">Description</th>
+              <th scope="col">Partner</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row"><a target="_blank" href="https://ramp.eu/#/aboutus">Marketplace</a></td>
+                <td scope="row"><a target="_blank" href="https://ramp.eu">https://ramp.eu</a></td>
+                <td>A customisation of the Robotics and Automation Marketplace for the specific needs of the KITT4SME
+                  project</td>
+                <td><a target="_blank" href="https://www.eurodyn.com">European Dynamics</a></td>
+              </tr>
+              <tr>
+                <td scope="row">Data sheets</td>
+                <td scope="row"><a target="_blank"
+                    href="https://kitt4sme.collab-cloud.eu/datasheets/index">https://kitt4sme.collab-cloud.eu/datasheets/index</a>
+                </td>
+                <td>Digital data sheets for module composability</td>
+                <td><a target="_blank" href="https://www.vttresearch.com">VTT</a></td>
+              </tr>
+              <tr>
+                <td scope="row"><a
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/pc.md">SME-Oriented Platform
+                    Configurator</a></td>
+                <td><a target="_blank"
+                    href="https://kitt4sme.collab-cloud.eu/platform-configurator">https://kitt4sme.collab-cloud.eu/platform-configurator</a>
+                </td>
+                <td>AI solution</td>
+                <td><a target="_blank" href="https://www.supsi.ch/home.html">SUPSI</a></td>
+              </tr>
+              <tr>
+                <td scope="row"><a target="_blank"
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/aq.md">Adaptive
+                    Questionnaire</a></td>
+                <td scope="row"><a target="_blank"
+                    href="https://kitt4sme.collab-cloud.eu/aq">https://kitt4sme.collab-cloud.eu/aq</a></td>
+                <td>AI-powered questionnaire to determine the most suitable service kit for a manufacturing company</td>
+                <td><a target="_blank" href="https://www.supsi.ch/home.html">SUPSI</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="row">
+          <h2>Infrastructure services</h2>
+          <table class="table table-striped">
+            <thead>
+              <th scope="col">Name</th>
+              <th scope="col">Demo</th>
+              <th scope="col">Description</th>
+              <th scope="col">Partner</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row"><a target="_blank"
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/sensing-layer.md">Sensing
+                    Layer</a>
+                </td>
+                <td>Sensing Layer is an Android .apk file. There is not a public demo.</td>
+                <td>Sensing Layer implements access points, manipulation, storing and routing of the data regarding
+                  workplace
+                  and workers and coming from different and multiple sources like wearable devices and environment
+                  sensors. </td>
+                <td style="width: 18%;"><a target="_blank" href="https://www.holonix.it">HOLONIX</a></td>
+              </tr>
+              <tr>
+                <td scope="row"><a target="_blank"
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/fiware.md">FIWARE middleware</a>
+                </td>
+                <td>No public demo available</td>
+                <td>Powered by FIWARE IoT communication, data exchange and interoperability platform</td>
+                <td style="width: 18%;"><a target="_blank" href="https://www.martel-innovate.com">Martel</a></td>
+              </tr>
+              <tr>
+                <td scope="row"><a target="_blank"
+                    href="https://github.com/c0c0n3/kitt4sme/blob/master/arch/catalogue/quantumleap.md">QuantumLeap</a>
+                </td>
+                <td>No public demo available</td>
+                <td>Service for storing and querying spatial-temporal IoT data</td>
+                <td style="width: 18%;"><a target="_blank" href="https://www.martel-innovate.com">Martel</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- use cases-->
+      <div class="tab-pane fade" id="usecases" role="tabpanel" aria-labelledby="usecases">
+        <h1 class="mt-4">Company X - E-bike manufacturer</h1>
+        <h2>The Problem</h2>
+        <p>Company X, an e-bike manufacturer company based in Poznań (PL), employs 50 workers, and operates three
+          production lines,
+          namely motor, chassis, and wheels. Each line is staffed by 1 to 10 workers,
+          depending on the changing production demand and each worker can work in each of the 3 lines.</p>
+
+        <ul>
+          <li>Line 1 - Motor: The motor line involves 10 steps, starting from the machining (using lathes, milling
+            machines, and drill presses),
+            followed by assembly, testing and quality control.</li>
+
+          <li>Line 2 - Chassis: The chassis line involves 7 steps, starting from the tube bending, where the tubes that
+            will make up the chassis are bent to the correct angles and shapes, followed by welding, frame alignment,
+            surface treatment and quality control.</li>
+
+          <li>Line 3 - Wheels: The wheels line involves 6 steps, starting from the rim production, through a process of
+            extrusion, followed by the production of spokes and the hub, the assembly, testing and finishing.
+            The final step involves the assemble of all the parts and the quality control which is done with an
+            automated machine. Finally, workers are provided a Standard Operating Procedure (SOP) for the production
+            operations.
+          </li>
+        </ul>
+
+        The challenges it faces are the following:
+
+        <ul>
+          <li>With the wellbeing of their operators</li>
+          <li>With the HR department reported elevated levels of employee fatigue and stress</li>
+          <li>Increased absenteeism rate</li>
+          <li>Decreased productivity</li>
+        </ul>
+
+        <p>The COO, Jane Doe, has decided to take care of the challenge above.
+          However, the method of identifying the most tiring work cells and shifts, is very
+          prone to biased results: asking it to the workers will not reveal it, since the workers will be tending to
+          claim that “their work cell is the most critical and the tiring one” and manually observing the work cells
+          will lead
+          to subjective assessment of the observer. Besides, the method should reveal the identity of the worker,
+          leading to a discrimination or an unfair assessment of the worker based on their fatigue levels.</p>
+
+        <p>To get to the root of the problem, Jane wants to identify the most critical work cells that leads to high
+          level of fatigue and low ergonomic level together and the most tiring shifts due to factors like the workload,
+          timing, and intensity of the work, so to prioritize the most tiring work cells and shifts and to implement
+          better ergonomic practices, investing in more comfortable equipment and tools, and scheduling breaks to give
+          workers time to recharge. </p>
+
+
+        <h2>The solution</h2>
+
+        <p>
+          Jane is undertaking an initiative to address the well-being concerns impacting her company, and she seeks a
+          solution or a composition of solutions (kits) that is affordable and user-friendly. In her search for
+          potential solutions, Jane is interested in exploring AI-based solutions or composition of them. As a result,
+          she searches for “AI kits for SMEs” and discovers KITT4SME, which ranks among the top results of her Google
+          search.
+        </p>
+
+        <p>The outcome was a kit suggestion that includes FaMS, IM and the Sensing Layer. Jane, after a discussion with
+          the Platform Manager, decided to deploy the kit. They arrange a visit to the company to integrate the solution
+          into the company’s systems, train their personnel on how to use it, and they activate the kit. Once the kit
+          has been activated, they conduct tests to ensure that data acquisition, extraction, synthesis, and reporting
+          are functioning properly.
+        </p>
+
+        <p>
+          Once the integration and testing are complete, the solution provider leaves the company and receive the
+          payment from KITT4SME after Jane approves that they have received the goods and services they have purchased.
+          Each worker is equipped with wearable devices that collect his or her data, based on which the worker's
+          fatigue is estimated. For privacy issues, it is not possible to visualize the information (and thus the
+          fatigue) of the individual worker: only the values of average fatigue and number of workers for each line are
+          known. Using the FaMS and the Sensing Layer, the dashboard displays the average fatigue level of each line,
+          which is stored in the platform, ready to be fetched by IM.</p>
+
+        <p>Since the number of workers in the lines is constantly changing (workers going to and from break, workers
+          starting or finishing their shifts), as well as the average perceived fatigue of the workers (depending on the
+          number of operations they are
+          performing and the time they are working), unbalanced situations will arise in which some lines will have more
+          workers than needed and consequently different average levels of fatigue.
+          Using the IM, the system reassigns the workers in two possible ways: </p>
+        <ul>
+          <li>Assigning fresh workers to ‘tiring lines’</li>
+          <li>Collocating workers of ‘light lines’ to ‘tiring lines’ </li>
+        </ul>
+
+        <h2>The outcome</h2>
+
+        <p>For the Company X, the problem of identifying the most tiring work cells has been resolved: biased
+          results based on the subjective opinion of the workers is avoided, yet the privacy of the workers is
+          completely
+          ensured.</p>
+
+        <p>With the dynamic job allocation based on the real-time fatigue values, the improvements began to take effect
+          over time. Retaking the survey for the worker wellbeing and physical stress (NASA TLX and Borg CR), Jane’s
+          workers reported feeling less fatigued and more energized, leading to higher levels of productivity and job
+          satisfaction. In the long term, the high turnover rate was also reduced, as employees were more likely to stay
+          in their roles and have higher job satisfaction. Jane realized that it was important not only to identify
+          problems in the workplace, but to take action to solve them. By prioritizing the well-being of his workers,
+          she
+          was able to create a more positive work environment, leading to better results for both the employees and the
+          factory. The workers are happy that their work is more balanced, and their fatigue levels are being monitored.
+          The company is now considering using KITT4SME as a one-stop-shop to improve their productivity.</p>
+
+        <p>The solution provider has made a sale and gained a new customer. They can use the data received from the
+          shopfloor to train their AI solution to give more accurate results without being able to identify the users.
+          This success has encouraged them to utilize KITT4SME as a sales channel for their products.</p>
+
+        <p>For KITT4SME, the sale has resulted in a commission and a satisfied customer and suppliers, which highlights
+          the benefits of using KITT4SME as a one-stop-shop.</p>
+
+        <hr />
+
+        <h1>Company Y - Car battery manufacturer</h1>
+
+        <h2>The problem</h2>
+
+        <p>Company Y, a car battery manufacturer company based in Stuttgart (DE), employs 60 workers.
+          The main product of the company is customized Li-Ion batteries. The plant is composed of 2 lines:</p>
+
+        <ul>
+          <li>Line 1: involves the preparation of the anode, the cathode, and the electrolyte, together with their
+            assembly.</li>
+          <li>Line 2: involves the sealing of the battery, the quality control, and the packaging.</li>
+        </ul>
+
+        <p>The company recently went under a change in the products, by shifting from the manufacturing of lead
+          batteries to Li-Ion batteries. Despite the big investment in the shopfloor and recently hired experienced
+          personnel, the
+          workers are now struggling to adapt to new processes and working methods which leads to increasing quality
+          issues and high level of scraps. </p>
+
+        <p><strong>Max Mustermann, the Quality Manager</strong>, has identified one process, the sealing of
+          the battery, which is done with a special machine that the company have bought for the new batteries. For the
+          quality control, a person manually checks the defects only in a small number of batteries, and the whole batch
+          is considered OK when there were no defects seen in the checked batteries. It’s common that the worker finds
+          some problems in the batch, which are mainly related with the welding spots, and interests not a small number
+          of batteries.</p>
+
+        <p>To decrease the quality issues, Max decides to collect data manually from each production line, but this
+          takes a lot of time, since the company lack of sensors for data collection at the time. In addition, the large
+          amount
+          of data collected was relatively useless due to the difficulty in understanding correlations between the
+          collected data of different operations. Max also considers sending the workers to some trainings, hoping the
+          upskilling
+          the quality workers will help to decrease the quality issues, however, but the workers need guidance on
+          finding the right courses, and the HR is continuously asking the quality department to deliver them a list of
+          trainings they wish to receive within their training budget.</p>
+
+        <p>
+          Max is determined to address the issues plaguing the company. Despite not being certain of the root cause of
+          the problem, he embarks on a search for a cost-effective solution that can resolve his problem. While he was
+          browsing through LinkedIn, he discovers the success story of detecting the shop-floor anomalies with SADS in
+          KITT4SME, which proposes a very specific module. Intrigued, he uses the link to access the success story, and
+          to the registration page of KITT4SME, and eventually find himself in RAMP, where he was asked to register with
+          his company email and company information.
+        </p>
+
+        <h2>The solution</h2>
+
+        <p>Max knows what he needs, he is impressed with the success story and has already identified the AI module he
+          wants to use; therefore he opts out using the Adaptive Questionnaire. As a customer redirected from KITT4SME
+          to
+          RAMP, he checks the suitability of the solution with the KITT4SME Representative inside RAMP via a dialog Box
+          and discovers that SADS and a combination of some connectors is the right solution for his needs. With the
+          KITT4SME Representative, Max is convinced to purchase the composed kit.</p>
+
+        <p>The kit consists of 2 components: (i) SADS, a tool based on artificial intelligence that identifies the
+          quality issues and make predictions about the future issues, and (ii) the Sensing Layer, a tool for connecting
+          multiple devices to the KITT4SME platform.</p>
+
+        <p>Max, upon reviewing the costs and conditions of the proposed solutions and
+          hardware, as well as the deployment and maintenance costs, he decides to accept the offer. After that, the
+          user sends the configuration to the Module Manager for implementability analysis. The RAMP Integrator reviews
+          the configuration, confirms the price and implementability of the solution. Once the payment is done,
+          the RAMP Integrator deploys the solution to the KITT4SME platform.</p>
+
+        <p>After the payment is made, the Module Manager informs the solution provider and integrator company, which
+          have been previously contacted by Max. They arrange a visit to the company to integrate the solution into the
+          company’s systems, train personnel on how to use it, and activate the kit. Once the kit has been activated,
+          they conduct tests to ensure that data acquisition, extraction, synthesis, and reporting are functioning
+          properly. Once the integration and testing are complete, the solution provider and integrator company leave
+          the company and receive payment from KITT4SME after approval has been obtained from Max.
+          Using the SADS and the Sensing Layer , the system monitors the batteries welding spots after the sealing
+          process.
+        </p>
+
+        <p>
+          Max has opted out from an intervention module, since he wants to identify and to predict the quality issues
+          only and to save resources. Yet, a decision maker module which could provide intervention actions based on the
+          sense pillar can always be added it in the future.
+        </p>
+
+        <p>Max has opted out from an intervention module, since he wants to identify and to predict the quality issues
+          only
+          and to save resources. Yet, a decision maker module which could provide intervention actions based on the
+          sense
+          pillar can always be added it in the future.</p>
+
+        <h2>The outcome</h2>
+
+        <p>SADS helps Company Y on identifying the quality related anomalies in the battery production. It shows the
+          detected anomalies, and shows a prediction of the future anomalies. As the system is trained with more data,
+          the
+          accuracy of the predictions will increase. With the decreasing quality issues, the amount of scraps also
+          decreases.</p>
+
+        <p>The Worker Profiler, working in collaboration with the Competence Matchmaking Tool and Catalogue of the
+          Training
+          Experiences in the background, provides a list of relevant trainings to Max for his production supervisor with
+          the click of a button. Therefore the time that would have been spent for looking for relevant trainings is
+          saved. His production supervisor feels valued and his job satisfaction is increased, the HR is happy with the
+          realized training budgets and Max is happy to see the reports on SAP thanks to the recently gained skills of
+          his
+          production supervisor.</p>
+
+        <p>The solution provider, makes a sale of their product and gained a new customer. This success has encouraged
+          them
+          to utilize KITT4SME as a sales channel for their products.</p>
+
+        <p>For KITT4SME, the sale has resulted in a commission and a satisfied customer and suppliers, which highlights
+          the
+          benefits of using KITT4SME as a platform for business transactions.</p>
+        <hr />
+
+        <h1>Company Z - Fittings and fasteners manufacturer</h1>
+
+        <h2>The problem</h2>
+
+        <p>
+          Company Z, in Bologna (IT) manufactures fittings and fasteners (bolts, nuts and washers) for the airplane
+          turbines. The manufacturing volume can be measured with billions of fasteners every year. It has a workforce
+          of
+          around 80 individuals, responsible for administrative and production tasks. The company uses DIMAC automatic
+          quality control machines, to visually check the manufactured the European Union Aviation Safety Agency has
+          recently imposed new directives regarding engine part quality control that require all the suppliers’
+          compliance.
+        </p>
+
+        <p>
+          Many products that previously was considered ok are now not ok due to minor surface defects on the
+          products that are now not accepted. Thus, the company is looking for a fast way to train the automatic quality
+          machine to be ready for the new directive. Since the amount of low-quality product is very low the company is
+          having difficulties in training the new algorithm. The company's quality manager, Mario Rossi, has recognized
+          this problem and is concerned about the potential impact on the company's reputation and financial
+          performance.
+        </p>
+
+        <p>
+          The company is currently facing a significant challenge with the conformity of their products to the new
+          European directives. It needs a rapid way to train the algorithm that identify low quality products from
+          products that are still under conformity. The actual automatic quality inspection machine is not trained to
+          recognize imperfections that the new directive is setting as problematic, so the company is struggling, and it
+          has projected to lose much time for data collection. There are no other relevant problems that have been
+          recognized.
+        </p>
+
+        <h2>The solution</h2>
+
+        <p>
+          Mario is using RAMP and he already has a predefined kit composed of the AIQuS module.
+          Within the dialog box Mario asks for more information and the KITT4SME Representative, who a
+          priori knows that the company is one of the targeted campaign, explain how AIQuS can help Company Z.
+          Furthermore, the KITT4SME Representative tells Mario that the kit should be composed of another component, the
+          Sensing Layer, a tool for connecting multiple devices to the KITT4SME platform. After reaching an agreement,
+          Mario is convinced to purchase the full kit composed with the help of the KITT4SME Representative.
+        </p>
+
+        <p>After the payment has been made, the Module Manager informs the solution provider and integrator company,
+          which have been previously contacted by Mario. They arrange a visit to the company to integrate the solution
+          into the company’s systems, train personnel on how to use it, and activate the kit. Once the kit has been
+          activated, they conduct tests to ensure that data acquisition, extraction, synthesis, and reporting are
+          functioning properly.</p>
+
+        <p>Once the integration and testing are complete, the solution provider and integrator company leave the company
+          and receive payment from KITT4SME after approval has been obtained from Mario. Using the AIQuS, the tool
+          performs data augmentation
+        </p>
+
+
+        <h2>The outcome</h2>
+
+        <p>For the end-user manufacturing company, the results of the introduction of the AIQuS module speed up the
+        complaint with the European directives, making the company one of the first able to be complaint and increasing
+        in this way its market share since other suppliers are still struggling.</p>
+
+        <p>For the solution provider, the sale of their product to the end-user manufacturing company has resulted in
+        gaining a new customer and collaborating with an integrator. This success has encouraged them to utilize
+        KITT4SME as a sales channel for their products.</p>
+        
+        <p>Similarly, for the solution integrator, the sale of their product to the end-user manufacturing company has
+        resulted in gaining a new customer and collaborating with a solution provider. This has also encouraged them to
+        utilize KITT4SME as a sales channel for their products.</p>
+        
+        <p>For KITT4SME, the sale has resulted in a commission and a satisfied customer and suppliers, which highlights the
+        benefits of using KITT4SME as a platform for business transactions.</p>
+
+      </div>
+
+      <div class="tab-pane fade" id="pricing" role="tabpanel" aria-labelledby="pricing">
+        TBD
+      </div>
+    </div>
+    <!-- End of tabs content-->
+
+    <!-- partners -->
+    <hr />
+    <div class="row">
+      <h1>Partners</h1>
+      <table class="table partners">
+        <tbody>
+          <tr>
+            <td><a target="_blank" href="https://www.art-er.it"><img class="partner"
+                  src="partners/ArtEr-300x147.jpg"></a></td>
+            <td><a target="_blank" href="https://www.crit-research.it"><img class="partner"
+                  src="partners/Crit-300x147.jpg"></a></td>
+            <td><a target="_blank" href="https://www.csic.es"><img class="partner" src="partners/marca-13.png"></a></td>
+            <td><a target="_blank" href="https://www.dimacsrl.com/home"><img class="partner"
+                  src="partners/marca21-300x160.png"></a></td>
+          </tr>
+          <tr>
+            <td><a target="_blank" href="https://www.errequadrosrl.com"><img class="partner"
+                  src="partners/Erre-Quadro_logo_intero-800x141.jpg"></a></td>
+            <td><a target="_blank" href="https://www.eurodyn.com"><img class="partner"
+                  src="partners/European-300x147.jpg"></a></td>
+            <td><a target="_blank" href="https://www.ghepi.it"><img class="partner"
+                  src="partners/GHEPI-300x147.jpg"></a></td>
+            <td><a target="_blank" href="https://www.ginkgo.com"><img class="partner"
+                  src="partners/Ginkgo-300x147.jpg"></a></td>
+          </tr>
+          <tr>
+            <td><a target="_blank" href="https://www.holonix.it"><img class="partner"
+                  src="partners/Holonix-300x147.jpg"></a></td>
+            <td><a target="_blank" href="https://www.ideal-tek.com"><img class="partner"
+                  src="partners/iDEALTEK-300x147.jpg"></a></td>
+            <td><a target="_blank" href="https://www.icent.hr/en"><img class="partner"
+                  src="partners/marca22-300x148.png"></a></td>
+            <td><a target="_blank" href="https://www.rovimatica.com"><img class="partner"
+                  src="partners/marca20-300x89.png"></a></td>
+          </tr>
+          <tr>
+            <td><a target="_blank" href="https://www.martel-innovate.com"><img class="partner"
+                  src="partners/Martel-300x147.jpg"></a></td>
+            <td><a target="_blank" href="https://www.r2msolution.com"><img class="partner"
+                  src="partners/R2M-300x147.jpg"></a></td>
+            <td><a target="_blank" href="https://www.supsi.ch/home.html"><img class="partner"
+                  src="partners/Supsi.jpg"></a></td>
+            <td><a target="_blank" href="https://www.vttresearch.com"><img class="partner"
+                  src="partners/VTT-300x147.jpg"></a></td>
+          </tr>
+          <tr>
+            <td colspan="2"><a target="_blank" href="https://www.pw.edu.pl"><img class="partner"
+                  src="partners/logo_WUT_v4.png"></a></td>
+            <td colspan="2"><a target="_blank" href="https://wamtechnik.pl"><img class="partner"
+                  src="partners/marca-25.png"></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      version 2023.10.12
+    </footer>
+
+  </div>
+  <!-- End of container -->
+</body>
+
 </html>
