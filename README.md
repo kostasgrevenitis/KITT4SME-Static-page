@@ -1,4 +1,4 @@
-# KITT4SME-Static-page
+# KITT4SME-Static-page 1.0.0
 ```
     docker build -t kitt4sme-static-page .
 
